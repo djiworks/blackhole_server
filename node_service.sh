@@ -2,7 +2,7 @@
 
 # prepare node site
 sudo mkdir /var/www/blackhole.org
-sudo mv index.js /var/www/blackhole.org/
+sudo mv *.js *.json /var/www/blackhole.org/
 cd /var/www/blackhole.org/
 sudo npm install
 
